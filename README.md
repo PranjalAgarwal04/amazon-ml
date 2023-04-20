@@ -6,7 +6,7 @@ You will have access to the product title, description, bullet points, product t
 
 ## Task
 
-You are required to build a machine learning model that can predict product length from catalog metadata.
+- [ ] build a machine learning model that can predict product length from catalog metadata.
 
 ## Dataset description
 
@@ -15,7 +15,17 @@ The dataset folder contains the following files:
 - train.csv: 2249698 x 6
 - test.csv: 734736 x 5
 - sample_submission.csv: 734736 x 2
-  The columns provided in the dataset are as follows:
+
+## The columns provided in the dataset are as follows
+
+| Column name     | Description                                     |
+| :---------:     | :--------:                                      |
+| PRODUCT_ID      | Represents a unique identification of a product |
+| TITLE           | Represents the title of the product             |
+| DESCRIPTION     | Represents the description of the product       |
+| BULLET_POINTS   | Represents the bullet points about the product  |
+| PRODUCT_TYPE_ID | Represents the product type                     |
+| PRODUCT_LENGTH  | Represents the length of the product            |
 
 ## Evaluation metric
 
