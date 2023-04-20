@@ -17,9 +17,11 @@ The dataset folder contains the following files:
 - sample_submission.csv: 734736 x 2
   The columns provided in the dataset are as follows:
 
-  ## Evaluation metric
+## Evaluation metric
 
-  score = max( 0 , 100\*(1-metrics.mean_absolute_percentage_error(actual,predicted)))
+```
+score = max( 0 , 100\*(1-metrics.mean_absolute_percentage_error(actual,predicted)))
+```
 
 ## Result submission guidelines
 
