@@ -47,7 +47,7 @@ The dataset folder contains the following files:
 score = max( 0 , 100\*(1-metrics.mean_absolute_percentage_error(actual,predicted)))
 ```
 
-## Result submission guidelines
+## Result Submission Guidelines
 
 - The index is "PRODUCT_ID" and the target is the "PRODUCT_LENGTH" column.
 - The submission file must be submitted in .csv format only.
@@ -59,6 +59,10 @@ score = max( 0 , 100\*(1-metrics.mean_absolute_percentage_error(actual,predicted
 ## Dataset
 
 - [Dataset](https://s3-ap-southeast-1.amazonaws.com/he-public-data/datasetb2d9982.zip)
+
+## Result
+
+![Result](./assets/result.png?raw=true "Result")
 
 ## Authors
 
